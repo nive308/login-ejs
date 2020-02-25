@@ -1,0 +1,9 @@
+<h1>Users</h1>
+
+<% function user(user) { %>
+  <li><strong><%= user.firstname %></strong>,<%= user.lastname %>,<%= user.email %>.</li>
+<% } %>
+
+<ul>
+  <% users.map(user) %>
+</ul>
